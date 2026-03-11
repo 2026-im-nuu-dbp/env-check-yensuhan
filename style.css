@@ -1,0 +1,22 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f5f5f5;
+}
+.about-flex {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+.card {
+	background-color: #fff;
+	border: 1px solid #df8f8f;
+	border-radius: 10px;
+	padding: 15px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
